@@ -48,12 +48,15 @@
             this.del = new System.Windows.Forms.Button();
             this.C = new System.Windows.Forms.Button();
             this.equal = new System.Windows.Forms.Button();
+            this.output = new System.Windows.Forms.TextBox();
+            this.input = new System.Windows.Forms.TextBox();
+            this.history = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Num0
             // 
             this.Num0.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num0.Location = new System.Drawing.Point(1, 818);
+            this.Num0.Location = new System.Drawing.Point(3, 735);
             this.Num0.Name = "Num0";
             this.Num0.Size = new System.Drawing.Size(110, 130);
             this.Num0.TabIndex = 1;
@@ -63,7 +66,7 @@
             // dot
             // 
             this.dot.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dot.Location = new System.Drawing.Point(117, 818);
+            this.dot.Location = new System.Drawing.Point(119, 735);
             this.dot.Name = "dot";
             this.dot.Size = new System.Drawing.Size(110, 130);
             this.dot.TabIndex = 2;
@@ -73,7 +76,7 @@
             // Num1
             // 
             this.Num1.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num1.Location = new System.Drawing.Point(1, 682);
+            this.Num1.Location = new System.Drawing.Point(3, 599);
             this.Num1.Name = "Num1";
             this.Num1.Size = new System.Drawing.Size(110, 130);
             this.Num1.TabIndex = 3;
@@ -83,7 +86,7 @@
             // Num2
             // 
             this.Num2.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num2.Location = new System.Drawing.Point(117, 682);
+            this.Num2.Location = new System.Drawing.Point(119, 599);
             this.Num2.Name = "Num2";
             this.Num2.Size = new System.Drawing.Size(110, 130);
             this.Num2.TabIndex = 4;
@@ -93,7 +96,7 @@
             // Num3
             // 
             this.Num3.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num3.Location = new System.Drawing.Point(233, 682);
+            this.Num3.Location = new System.Drawing.Point(235, 599);
             this.Num3.Name = "Num3";
             this.Num3.Size = new System.Drawing.Size(110, 130);
             this.Num3.TabIndex = 5;
@@ -103,7 +106,7 @@
             // times
             // 
             this.times.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.times.Location = new System.Drawing.Point(349, 682);
+            this.times.Location = new System.Drawing.Point(351, 599);
             this.times.Name = "times";
             this.times.Size = new System.Drawing.Size(110, 130);
             this.times.TabIndex = 6;
@@ -113,7 +116,7 @@
             // divide
             // 
             this.divide.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.divide.Location = new System.Drawing.Point(465, 682);
+            this.divide.Location = new System.Drawing.Point(467, 599);
             this.divide.Name = "divide";
             this.divide.Size = new System.Drawing.Size(110, 130);
             this.divide.TabIndex = 7;
@@ -123,7 +126,7 @@
             // minus
             // 
             this.minus.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.minus.Location = new System.Drawing.Point(465, 546);
+            this.minus.Location = new System.Drawing.Point(467, 463);
             this.minus.Name = "minus";
             this.minus.Size = new System.Drawing.Size(110, 130);
             this.minus.TabIndex = 12;
@@ -133,7 +136,7 @@
             // plus
             // 
             this.plus.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.plus.Location = new System.Drawing.Point(349, 546);
+            this.plus.Location = new System.Drawing.Point(351, 463);
             this.plus.Name = "plus";
             this.plus.Size = new System.Drawing.Size(110, 130);
             this.plus.TabIndex = 11;
@@ -143,7 +146,7 @@
             // Num6
             // 
             this.Num6.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num6.Location = new System.Drawing.Point(233, 546);
+            this.Num6.Location = new System.Drawing.Point(235, 463);
             this.Num6.Name = "Num6";
             this.Num6.Size = new System.Drawing.Size(110, 130);
             this.Num6.TabIndex = 10;
@@ -153,7 +156,7 @@
             // Num5
             // 
             this.Num5.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num5.Location = new System.Drawing.Point(117, 546);
+            this.Num5.Location = new System.Drawing.Point(119, 463);
             this.Num5.Name = "Num5";
             this.Num5.Size = new System.Drawing.Size(110, 130);
             this.Num5.TabIndex = 9;
@@ -163,7 +166,7 @@
             // Num4
             // 
             this.Num4.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num4.Location = new System.Drawing.Point(1, 546);
+            this.Num4.Location = new System.Drawing.Point(3, 463);
             this.Num4.Name = "Num4";
             this.Num4.Size = new System.Drawing.Size(110, 130);
             this.Num4.TabIndex = 8;
@@ -173,7 +176,7 @@
             // rightbracket
             // 
             this.rightbracket.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.rightbracket.Location = new System.Drawing.Point(465, 410);
+            this.rightbracket.Location = new System.Drawing.Point(467, 327);
             this.rightbracket.Name = "rightbracket";
             this.rightbracket.Size = new System.Drawing.Size(110, 130);
             this.rightbracket.TabIndex = 17;
@@ -183,7 +186,7 @@
             // leftbracket
             // 
             this.leftbracket.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.leftbracket.Location = new System.Drawing.Point(349, 410);
+            this.leftbracket.Location = new System.Drawing.Point(351, 327);
             this.leftbracket.Name = "leftbracket";
             this.leftbracket.Size = new System.Drawing.Size(110, 130);
             this.leftbracket.TabIndex = 16;
@@ -193,7 +196,7 @@
             // Num9
             // 
             this.Num9.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num9.Location = new System.Drawing.Point(233, 410);
+            this.Num9.Location = new System.Drawing.Point(235, 327);
             this.Num9.Name = "Num9";
             this.Num9.Size = new System.Drawing.Size(110, 130);
             this.Num9.TabIndex = 15;
@@ -203,7 +206,7 @@
             // Num8
             // 
             this.Num8.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num8.Location = new System.Drawing.Point(117, 410);
+            this.Num8.Location = new System.Drawing.Point(119, 327);
             this.Num8.Name = "Num8";
             this.Num8.Size = new System.Drawing.Size(110, 130);
             this.Num8.TabIndex = 14;
@@ -213,7 +216,7 @@
             // Num7
             // 
             this.Num7.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Num7.Location = new System.Drawing.Point(1, 410);
+            this.Num7.Location = new System.Drawing.Point(3, 327);
             this.Num7.Name = "Num7";
             this.Num7.Size = new System.Drawing.Size(110, 130);
             this.Num7.TabIndex = 13;
@@ -223,7 +226,7 @@
             // del
             // 
             this.del.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.del.Location = new System.Drawing.Point(233, 818);
+            this.del.Location = new System.Drawing.Point(235, 735);
             this.del.Name = "del";
             this.del.Size = new System.Drawing.Size(110, 130);
             this.del.TabIndex = 18;
@@ -233,7 +236,7 @@
             // C
             // 
             this.C.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.C.Location = new System.Drawing.Point(349, 818);
+            this.C.Location = new System.Drawing.Point(351, 735);
             this.C.Name = "C";
             this.C.Size = new System.Drawing.Size(110, 130);
             this.C.TabIndex = 19;
@@ -243,18 +246,47 @@
             // equal
             // 
             this.equal.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.equal.Location = new System.Drawing.Point(465, 818);
+            this.equal.Location = new System.Drawing.Point(467, 735);
             this.equal.Name = "equal";
             this.equal.Size = new System.Drawing.Size(110, 130);
             this.equal.TabIndex = 20;
             this.equal.Text = "=";
             this.equal.UseVisualStyleBackColor = true;
             // 
+            // output
+            // 
+            this.output.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.output.Location = new System.Drawing.Point(13, 238);
+            this.output.Name = "output";
+            this.output.Size = new System.Drawing.Size(553, 62);
+            this.output.TabIndex = 21;
+            // 
+            // input
+            // 
+            this.input.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.input.Location = new System.Drawing.Point(13, 135);
+            this.input.Name = "input";
+            this.input.Size = new System.Drawing.Size(553, 62);
+            this.input.TabIndex = 22;
+            // 
+            // history
+            // 
+            this.history.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.history.Location = new System.Drawing.Point(439, 12);
+            this.history.Name = "history";
+            this.history.Size = new System.Drawing.Size(127, 47);
+            this.history.TabIndex = 23;
+            this.history.Text = "History";
+            this.history.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 944);
+            this.ClientSize = new System.Drawing.Size(578, 874);
+            this.Controls.Add(this.history);
+            this.Controls.Add(this.input);
+            this.Controls.Add(this.output);
             this.Controls.Add(this.equal);
             this.Controls.Add(this.C);
             this.Controls.Add(this.del);
@@ -279,7 +311,9 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Calculator";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -305,6 +339,9 @@
         private System.Windows.Forms.Button del;
         private System.Windows.Forms.Button C;
         private System.Windows.Forms.Button equal;
+        private System.Windows.Forms.TextBox output;
+        private System.Windows.Forms.TextBox input;
+        private System.Windows.Forms.Button history;
     }
 }
 
