@@ -9,3 +9,14 @@ C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calcu
 C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
 C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.exe
 C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.pdb
+D:\软件工程\c#\calculator\Calculator\bin\Debug\calculator.exe.config
+D:\软件工程\c#\calculator\Calculator\bin\Debug\calculator.exe
+D:\软件工程\c#\calculator\Calculator\bin\Debug\calculator.pdb
+D:\软件工程\c#\calculator\Calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
+D:\软件工程\c#\calculator\Calculator\obj\Debug\calculator.csproj.SuggestedBindingRedirects.cache
+D:\软件工程\c#\calculator\Calculator\obj\Debug\calculator.Form1.resources
+D:\软件工程\c#\calculator\Calculator\obj\Debug\calculator.Properties.Resources.resources
+D:\软件工程\c#\calculator\Calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+D:\软件工程\c#\calculator\Calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+D:\软件工程\c#\calculator\Calculator\obj\Debug\calculator.exe
+D:\软件工程\c#\calculator\Calculator\obj\Debug\calculator.pdb
