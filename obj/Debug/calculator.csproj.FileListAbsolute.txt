@@ -1,0 +1,11 @@
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\bin\Debug\calculator.exe.config
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\bin\Debug\calculator.exe
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\bin\Debug\calculator.pdb
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.Form1.resources
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.exe
+C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator\obj\Debug\calculator.pdb
