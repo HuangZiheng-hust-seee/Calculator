@@ -149,8 +149,15 @@ namespace calculator
         private void del_Click(object sender, EventArgs e)
         {
             string s = TextBox1.Text;
-            s=s.Substring(0, s.Length-1);
-            TextBox1.Text = s;
+            if (TextBox1.Text.Length != 1)
+            {
+                s = s.Substring(0, s.Length - 1);
+                TextBox1.Text = s;
+            }
+            else
+            {
+                TextBox1.Text = "0";
+            }
         }
 
         private void plus_Click(object sender, EventArgs e)
@@ -165,7 +172,7 @@ namespace calculator
 
         private void multiply_Click(object sender, EventArgs e)
         {
-            TextBox1.Text += "x"; 
+            TextBox1.Text += "×"; 
         }
 
         private void divide_Click(object sender, EventArgs e)
@@ -199,7 +206,7 @@ namespace calculator
                         num.Push(n);
                     }
 
-                    if (s[p] == '+' || s[p] == '-' || s[p] == 'x' || s[p] == '÷' || s[p] == '(' || s[p] == ')')
+                    if (s[p] == '+' || s[p] == '-' || s[p] == '×' || s[p] == '÷' || s[p] == '(' || s[p] == ')')
                     {
                         if (op.Count == 0)
                         {
@@ -261,7 +268,7 @@ namespace calculator
                         result = d1 + d2; break;
                     case '-':
                         result = d1 - d2; break;
-                    case 'x':
+                    case '×':
                         result = d1 * d2; break;
                     case '÷':
                         result = d1 / d2; break;
@@ -281,7 +288,7 @@ namespace calculator
                         else
                             result = '<';
                         break;
-                    case 'x':
+                    case '×':
                     case '÷':
                         if (c2 == '(')
                             result = '<';
@@ -301,7 +308,11 @@ namespace calculator
                 return result;
             }
 
+        private void dot_Click(object sender, EventArgs e)
+        {
+            TextBox1.Text += ".";
         }
+    }
 
      
 

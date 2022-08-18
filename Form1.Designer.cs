@@ -74,6 +74,7 @@
             this.dot.TabIndex = 2;
             this.dot.Text = "·";
             this.dot.UseVisualStyleBackColor = true;
+            this.dot.Click += new System.EventHandler(this.dot_Click);
             // 
             // Num1
             // 
