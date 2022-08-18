@@ -48,8 +48,7 @@
             this.del = new System.Windows.Forms.Button();
             this.C = new System.Windows.Forms.Button();
             this.equal = new System.Windows.Forms.Button();
-            this.inputbox = new System.Windows.Forms.TextBox();
-            this.outputbx = new System.Windows.Forms.TextBox();
+            this.TextBox1 = new System.Windows.Forms.TextBox();
             this.history = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -206,6 +205,7 @@
             this.rightbracket.TabIndex = 17;
             this.rightbracket.Text = ")";
             this.rightbracket.UseVisualStyleBackColor = true;
+            this.rightbracket.Click += new System.EventHandler(this.rightbracket_Click);
             // 
             // leftbracket
             // 
@@ -217,6 +217,7 @@
             this.leftbracket.TabIndex = 16;
             this.leftbracket.Text = "(";
             this.leftbracket.UseVisualStyleBackColor = true;
+            this.leftbracket.Click += new System.EventHandler(this.leftbracket_Click);
             // 
             // Num9
             // 
@@ -288,28 +289,18 @@
             this.equal.TabIndex = 20;
             this.equal.Text = "=";
             this.equal.UseVisualStyleBackColor = true;
+            this.equal.Click += new System.EventHandler(this.equal_Click);
             // 
-            // inputbox
+            // TextBox1
             // 
-            this.inputbox.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.inputbox.Location = new System.Drawing.Point(12, 198);
-            this.inputbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.inputbox.Name = "inputbox";
-            this.inputbox.ReadOnly = true;
-            this.inputbox.Size = new System.Drawing.Size(492, 53);
-            this.inputbox.TabIndex = 21;
-            this.inputbox.TextChanged += new System.EventHandler(this.inputbox_TextChanged);
-            // 
-            // outputbx
-            // 
-            this.outputbx.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.outputbx.Location = new System.Drawing.Point(12, 112);
-            this.outputbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.outputbx.Name = "outputbx";
-            this.outputbx.ReadOnly = true;
-            this.outputbx.Size = new System.Drawing.Size(492, 53);
-            this.outputbx.TabIndex = 22;
-            this.outputbx.TextChanged += new System.EventHandler(this.input_TextChanged);
+            this.TextBox1.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.TextBox1.Location = new System.Drawing.Point(12, 112);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TextBox1.Name = "TextBox1";
+            this.TextBox1.ReadOnly = true;
+            this.TextBox1.Size = new System.Drawing.Size(492, 53);
+            this.TextBox1.TabIndex = 22;
+            this.TextBox1.TextChanged += new System.EventHandler(this.input_TextChanged);
             // 
             // history
             // 
@@ -328,8 +319,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(514, 728);
             this.Controls.Add(this.history);
-            this.Controls.Add(this.outputbx);
-            this.Controls.Add(this.inputbox);
+            this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.equal);
             this.Controls.Add(this.C);
             this.Controls.Add(this.del);
@@ -383,8 +373,7 @@
         private System.Windows.Forms.Button del;
         private System.Windows.Forms.Button C;
         private System.Windows.Forms.Button equal;
-        private System.Windows.Forms.TextBox inputbox;
-        private System.Windows.Forms.TextBox outputbx;
+        private System.Windows.Forms.TextBox TextBox1;
         private System.Windows.Forms.Button history;
     }
 }
