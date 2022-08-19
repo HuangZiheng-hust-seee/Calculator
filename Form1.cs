@@ -186,9 +186,9 @@ namespace calculator
             Stack<double> num = new Stack<double>();
             Stack<char> op = new Stack<char>();
 
-          
 
-          
+            try
+            {
                 String s = TextBox1.Text + "=";
                 int p = 0; double n;
                 /*如果是运算数num.push,如果是运算符判断与op栈顶的优先级*/
@@ -256,8 +256,25 @@ namespace calculator
 
                     }
                 }//while
-                TextBox1.Text = "" + num.Peek();
-            }//click
+                if (num.Count == 1)
+                {
+                    TextBox1.Text = "" + num.Peek();
+                }
+                else
+                {
+                    MessageBox.Show("数学错误！");
+                    TextBox1.Text = "0";
+                }
+            }
+            catch
+            {
+                MessageBox.Show("数学错误！");
+                TextBox1.Text = "0";
+            }
+          
+            
+                
+        }//click
              //运算
             double Operate(double d1, double d2, char c1)
             {

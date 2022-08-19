@@ -51,3 +51,4 @@ C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calcu
 C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator1\Calculator\obj\Debug\calculator.exe.manifest
 C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator1\Calculator\obj\Debug\calculator.application
 C:\Users\huang\OneDrive\课内学习\软件工程训练营\第二次作业\calculator1\Calculator\obj\Debug\calculator.Form2.resources
+C:\Users\黄\Desktop\暑期软工训练营\Calculator2\Calculator\obj\Debug\calculator.Form2.resources
