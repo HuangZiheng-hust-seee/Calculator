@@ -33,10 +33,15 @@ namespace calculator
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             if (Globaldata.Passdata != "")
-                textBox1.Text = "The data has been saved in" + Globaldata.Passdata + "./history.txt";
+                MessageBox.Show("The data has been saved in" + Globaldata.Passdata + "./history.txt");
             else
-                textBox1.Text = "You do not save the data";
+                MessageBox.Show("You do not save data");
         }
     }
 }
