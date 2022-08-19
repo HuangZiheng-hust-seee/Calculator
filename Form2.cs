@@ -25,5 +25,18 @@ namespace calculator
             FormMain.ShowDialog();
             Application.ExitThread();//退出当前窗体
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (Globaldata.Passdata != "")
+                textBox1.Text = "The data has been saved in" + Globaldata.Passdata + "./history.txt";
+            else
+                textBox1.Text = "You do not save the data";
+        }
     }
 }

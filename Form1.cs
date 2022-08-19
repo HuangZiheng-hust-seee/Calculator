@@ -185,7 +185,7 @@ namespace calculator
         {
             Stack<double> num = new Stack<double>();
             Stack<char> op = new Stack<char>();
-
+            
 
             try
             {
@@ -229,18 +229,6 @@ namespace calculator
                                     num.Push(Operate(d1, d2, c1)); break;
 
                             }
-                            /*if (precede(s[p], oprt))
-                            {
-                                double d1 = num.Pop();
-                                double d2 = num.Pop();
-                                char c1 = op.Pop();
-                                num.Push(Operate(d1, d2, c1));
-                            }
-                            else
-                            {
-                                op.Push(s[p]);
-                                p++;
-                            }*/
                         }
 
                     }
@@ -258,6 +246,7 @@ namespace calculator
                 }//while
                 if (num.Count == 1)
                 {
+                    
                     TextBox1.Text = "" + num.Peek();
                     string addstr = DateTime.Now.ToString("G");//得到当前时间
                     string oldstr;
@@ -265,6 +254,8 @@ namespace calculator
                     ReadandWrite readandWrite = new ReadandWrite();
                     oldstr = readandWrite.ReadAll();
                     readandWrite.Write(oldstr + "\n" + addstr);//将当前公式和时间写入txt文件
+                    textBox2.Text = TextBox1.Text;
+                    TextBox1.Text = "0";
                 }
                 else
                 {
@@ -342,6 +333,15 @@ namespace calculator
             Form2 FormHistory = new Form2();//创建新窗体
             this.Hide();
             FormHistory.ShowDialog();
+            Application.ExitThread();//退出当前窗体
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //窗口跳转
+            Form3 InitialForm = new Form3();//创建新窗体
+            this.Hide();
+            InitialForm.ShowDialog();
             Application.ExitThread();//退出当前窗体
         }
     }

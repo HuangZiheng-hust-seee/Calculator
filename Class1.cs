@@ -12,7 +12,8 @@ namespace calculator
         //读写整个文档的所有内容
         public string ReadAll()
         {
-            FileStream fs = new FileStream("./history.txt", FileMode.Open);
+            
+            FileStream fs = new FileStream(Globaldata.Passdata+"./history.txt", FileMode.Open);
             StreamReader sr = new StreamReader(fs);
             string all = sr.ReadToEnd();
             fs.Close();
@@ -21,7 +22,7 @@ namespace calculator
         //写入内容
         public void Write(string addstr)
         {
-            FileStream fs = new FileStream("./history.txt", FileMode.Create);
+            FileStream fs = new FileStream(Globaldata.Passdata + "./history.txt", FileMode.Create);
             byte[] byteData = Encoding.Default.GetBytes(addstr);
             fs.Write(byteData, 0, byteData.Length);
             fs.Flush();
