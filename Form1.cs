@@ -259,6 +259,12 @@ namespace calculator
                 if (num.Count == 1)
                 {
                     TextBox1.Text = "" + num.Peek();
+                    string addstr = DateTime.Now.ToString("G");//得到当前时间
+                    string oldstr;
+                    addstr = addstr + ";" + s + TextBox1.Text;
+                    ReadandWrite readandWrite = new ReadandWrite();
+                    oldstr = readandWrite.ReadAll();
+                    readandWrite.Write(oldstr + "\n" + addstr);//将当前公式和时间写入txt文件
                 }
                 else
                 {
