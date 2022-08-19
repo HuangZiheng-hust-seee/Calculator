@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="calculator.exe.manifest" size="3435">
+    <dependentAssembly dependencyType="install" codebase="calculator.exe.manifest" size="4108">
       <assemblyIdentity name="calculator.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>94PopqsV9NEbK/PYFeUraeeF9tG0qXLbt1uPVPoTe2Y=</dsig:DigestValue>
+        <dsig:DigestValue>CWEICFFHJBWQ2BiKeuF/4NYD3s9nLCg5kru+5+H/0j4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

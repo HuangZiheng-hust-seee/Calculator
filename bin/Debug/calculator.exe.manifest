@@ -42,14 +42,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="calculator.exe" size="22016">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="calculator.exe" size="21504">
       <assemblyIdentity name="calculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qhSXjNW/i+zzCyzxaA8LKhob/BSQi/9u5Nxv0cgBjTA=</dsig:DigestValue>
+        <dsig:DigestValue>Nx2D+YjVzRqOEWYJliUw/oOFNn6no46aH5rhHsZi5/s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="294912">
+      <assemblyIdentity name="MySql.Data" version="5.2.3.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rS/pdB39xHU2wNwfBhZ50HjCQ5F9qvOBBsYyjnVeusE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
