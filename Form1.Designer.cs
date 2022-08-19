@@ -294,6 +294,7 @@
             // 
             // TextBox1
             // 
+            this.TextBox1.Enabled = false;
             this.TextBox1.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.TextBox1.Location = new System.Drawing.Point(12, 112);
             this.TextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -313,6 +314,7 @@
             this.history.TabIndex = 23;
             this.history.Text = "History";
             this.history.UseVisualStyleBackColor = true;
+            this.history.Click += new System.EventHandler(this.history_Click);
             // 
             // Form1
             // 
@@ -345,6 +347,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

@@ -312,6 +312,15 @@ namespace calculator
         {
             TextBox1.Text += ".";
         }
+
+        private void history_Click(object sender, EventArgs e)
+        {
+            //窗口跳转
+            Form2 FormHistory = new Form2();//创建新窗体
+            this.Hide();
+            FormHistory.ShowDialog();
+            Application.ExitThread();//退出当前窗体
+        }
     }
 
      
